@@ -1,0 +1,71 @@
+body{
+    margin:0;
+}
+#backcover{
+    width: 100%;
+    
+}
+#backcover img{
+    width: 100%;
+    height: auto;
+}
+.todo{
+    position: absolute;
+    z-index: 0.5;
+}
+#backcover p{
+    font-size: 3rem;
+    color: white;
+    left: 20%;
+}
+#backcover input{
+    left: 20%;
+    top: 15%;
+    width: 30rem;
+    height: 2.4rem;
+    padding-left: 1rem;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+}
+#backcover button{
+    z-index:2;
+    height: 2.5rem;
+    width:2.5rem;
+    top:15%;
+    left:auto;
+    background-color:blueviolet;
+    color:white;
+    
+}
+
+#tasks{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 20%;
+    width: 32.5%;
+    height: 50vh;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(128, 128, 128, 0.623);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem;
+}
+#tasks ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+#task ul li{
+    padding: 0.9rem 1.1rem 0.9rem 1.1rem;
+    cursor: pointer;
+}
+#tasks ul li:hover{
+    background-color: orange;
+    border-radius: inherit;
+}
+#tasks{
+color:bold gray;
+}
+
